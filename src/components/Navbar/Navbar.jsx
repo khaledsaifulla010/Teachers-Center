@@ -2,6 +2,8 @@ import { MdOutlineSupportAgent } from "react-icons/md";
 import { FaCircleUser } from "react-icons/fa6";
 import { MdOutlineNotificationsActive } from "react-icons/md";
 import { PiLineVerticalThin } from "react-icons/pi";
+import img1 from "../../assets/images/student1.png";
+import Image from "next/image";
 
 const Navbar = () => {
   return (
@@ -19,10 +21,14 @@ const Navbar = () => {
         </div>
         <div className="flex items-center gap-4 ml-8">
           <div>
-            <FaCircleUser className="text-4xl" />
+            <Image
+              className="w-14 h-14 p-1 rounded-full bg-white border"
+              src={img1}
+              alt="student1"
+            />
           </div>
           <div>
-            <h1 className="font-semibold">Sir 1</h1>
+            <h1 className="font-bold text-lg">Sir 1</h1>
             <h3 className="text-slate-600">Chemistry | Level 3</h3>
           </div>
         </div>
