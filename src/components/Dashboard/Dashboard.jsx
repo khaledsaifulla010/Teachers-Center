@@ -1,6 +1,7 @@
 import Navbar from "../Navbar/Navbar";
 import Sidebar from "../Sidebar/Sidebar";
 import SubNavbar from "../SubNavbar/SubNavbar";
+import TabBar from "../TabBar/TabBar";
 
 const Dashboard = () => {
   return (
@@ -13,6 +14,7 @@ const Dashboard = () => {
         </div>
         <div className=" bg-slate-50 w-full py-10 h-[600px]">
           <SubNavbar />
+          <TabBar />
         </div>
       </div>
     </div>
