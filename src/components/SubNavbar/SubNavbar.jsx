@@ -12,11 +12,11 @@ const SubNavbar = () => {
         {/* Left Side of sub navbar */}
         <div className=" flex">
           <div className="flex">
-            <h1 className="flex items-center  justify-center gap-4 p-2 rounded-md bg-white border w-[200px] text-slate-700">
+            <h1 className="flex items-center  justify-center gap-4 p-2 rounded-md bg-white w-[200px] text-slate-700">
               Course for Chemistry <IoIosArrowDown className="mt-1" />
             </h1>
             <PiLineVerticalThin className="text-5xl text-slate-500" />
-            <h1 className="flex items-center justify-center gap-4 p-2 rounded-md bg-white border w-[150px] text-slate-700">
+            <h1 className="flex items-center justify-center gap-4 p-2 rounded-md bg-white w-[150px] text-slate-700">
               All Batches <IoIosArrowDown className="mt-1" />
             </h1>
           </div>
@@ -29,13 +29,13 @@ const SubNavbar = () => {
           <div className="flex items-center mr-4">
             <Image
               className="w-14 h-14 p-1 rounded-full bg-white"
-              src={img1}
-              alt="student1"
+              src={img2}
+              alt="student2"
             />
             <Image
               className="w-14 h-14 p-1 rounded-full absolute ml-8 z-10"
-              src={img2}
-              alt="student2"
+              src={img1}
+              alt="student1"
             />
             <h1 className="p-2 border rounded-r-full bg-white ml-4 text-slate-700">
               Add TA

@@ -1,3 +1,4 @@
+import MainContent from "../MainContent/MainContent";
 import Navbar from "../Navbar/Navbar";
 import Sidebar from "../Sidebar/Sidebar";
 import SubNavbar from "../SubNavbar/SubNavbar";
@@ -12,9 +13,12 @@ const Dashboard = () => {
         <div className=" h-[600px]">
           <Sidebar />
         </div>
-        <div className=" bg-slate-50 w-full py-10 h-[600px]">
+        <div className=" bg-gray-100 w-full py-10 h-[600px]">
           <SubNavbar />
           <TabBar />
+          <div className=" bg-white w-[1200px] mx-auto mt-4 h-[380px] rounded-md mr-14">
+            <MainContent />
+          </div>
         </div>
       </div>
     </div>
