@@ -5,6 +5,8 @@ import { RiDeleteBin2Fill } from "react-icons/ri";
 import { TbArrowsDownUp } from "react-icons/tb";
 import { FaSliders } from "react-icons/fa6";
 import ChapterList from "../ChapterList/ChapterList";
+import ChapterContent from "../ChapterContent/ChapterContent";
+import ChapterPdf from "../ChapterPdf/ChapterPdf";
 
 const MainContent = () => {
   return (
@@ -53,7 +55,17 @@ const MainContent = () => {
       </div>
       <div className="border-b-1"></div>
       {/* Chapter List */}
-      <ChapterList/>
+      <div>
+        <ChapterList />
+      </div>
+      {/* Chapter Content */}
+      <div>
+        <ChapterContent />
+      </div>
+      {/* Chapter Content PDF */}
+      <div>
+        <ChapterPdf />
+      </div>
     </div>
   );
 };
