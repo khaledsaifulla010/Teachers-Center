@@ -7,6 +7,7 @@ import { FaSliders } from "react-icons/fa6";
 import ChapterList from "../ChapterList/ChapterList";
 import ChapterContent from "../ChapterContent/ChapterContent";
 import ChapterPdf from "../ChapterPdf/ChapterPdf";
+import UploadFolder from "../UploadFolder/UploadFolder";
 
 const MainContent = () => {
   return (
@@ -65,6 +66,10 @@ const MainContent = () => {
       {/* Chapter Content PDF */}
       <div>
         <ChapterPdf />
+      </div>
+      {/* Chapter Content PDF */}
+      <div>
+        <UploadFolder />
       </div>
     </div>
   );

@@ -25,7 +25,7 @@ const ChapterPdf = () => {
             Actions <IoIosArrowDown />
           </h1>
         </div>
-      </div>{" "}
+      </div>
     </div>
   );
 };

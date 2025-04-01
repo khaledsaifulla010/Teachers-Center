@@ -8,7 +8,7 @@ import Image from "next/image";
 const SubNavbar = () => {
   return (
     <div>
-      <div className="flex items-center justify-between px-10">
+      <div className="flex items-center justify-between px-10 -mt-6">
         {/* Left Side of sub navbar */}
         <div className=" flex">
           <div className="flex">

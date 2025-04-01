@@ -8,15 +8,15 @@ const Dashboard = () => {
   return (
     <div>
       <Navbar />
-      <div className="border border-b-2 mt-4"></div>
+      <div className="border border-b-2 mt-2"></div>
       <div className="flex gap-8">
-        <div className=" h-[600px]">
+        <div>
           <Sidebar />
         </div>
         <div className=" bg-gray-100 w-full py-10 h-[600px]">
           <SubNavbar />
           <TabBar />
-          <div className=" bg-white w-[1200px] mx-auto mt-4 h-[380px] rounded-md mr-14">
+          <div className=" bg-white w-[1200px] mx-auto mt-4 h-[410px] rounded-md mr-14">
             <MainContent />
           </div>
         </div>
